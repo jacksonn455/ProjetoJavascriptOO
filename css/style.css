@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+}
+
+body {
+
+}
+
+main {
+    padding: 30px 50px;
+}
+
+header{
+    background-color: blueviolet;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding:  20px;
+    margin-top:  15px;
+    border-radius: 5px;
+}
+
+.lineInput {
+    display: grid;
+    margin-bottom: 10px;
+}
+
+input{
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    border: 0px;
+    padding:  10px;
+    outline: 0;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    transition:  all ease 0.3;
+}
+
+button:hover {
+    background-color: violet;
+}
+
+.content {
+    margin-top: 15px;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+table th{
+    background-color: #ccc;
+    padding: 1px;
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}

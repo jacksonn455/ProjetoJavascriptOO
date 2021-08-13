@@ -1,0 +1,71 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projeto Orientado a Objeto</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Minha Loja 1.0</h1>
+</header>
+
+  <main>
+    <div class="title">
+    <h1>Produtos</h1>
+    </div>
+
+    <div class="card">
+      <div class="lineInput">
+        <label>Produto</label>
+        <input type="text" id="produto" placeholder="Nome do produto">
+      </div>
+
+      <div class="lineInput">
+        <label>Valor</label>
+        <input type="text" id="produto" placeholder="Valor do produto">
+      </div>
+
+    <button onclick="produto.adicionar()">Adicionar</button>
+    <button onclick="produto.excluir()">Deletar</button>
+    </div>
+
+    <div class="content">
+      <table border="1">
+        <thead>
+          <th class="center">ID</th>
+          <th>Produto</th>
+          <th>Valor</th>
+          <th class="center">Ações</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Mesa de canto</td>
+            <td>1900</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Mesa de canto</td>
+            <td>1900</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Mesa de canto</td>
+            <td>1900</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </main>
+</body>
+</html>
