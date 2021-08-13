@@ -66,6 +66,10 @@ table th{
     text-align: left;
 }
 
+table td img{
+    width: 22px;
+}
+
 .center {
     text-align: center;
 }
