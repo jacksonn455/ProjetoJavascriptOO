@@ -3,7 +3,7 @@ Programa orientado a objeto
 
 - Implementação de uma loja utilizando orientação a objeto.
 
-- Acesso em: https://jacksonn455.github.io/Analisador-Sintatico/
+- Acesso em: https://jacksonn455.github.io/ProjetoJavascriptOO/
 
 ## Autor
 
