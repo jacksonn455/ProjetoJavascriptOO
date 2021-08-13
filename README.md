@@ -4,10 +4,6 @@ Programa orientado a objeto
 - Implementação de uma loja utilizando orientação a objeto.
 
 - Acesso em: https://jacksonn455.github.io/Analisador-Sintatico/
-- Confira também o Analisador Léxico, Acesso em: https://jacksonn455.github.io/Analisador-Lexico/
-- Curta o jogo criado com Analisador Léxico: https://jacksonn455.github.io/automato-typer/
-- [Trabalho](https://github.com/jacksonn455/Analisador-Sintatico/blob/main/Trabalho%20compiladores%202021%20-%20Analisador%20Sint%C3%A1tico%20-%20Jackson.pdf)
-
 
 ## Autor
 
@@ -15,4 +11,4 @@ Programa orientado a objeto
   | :---: |
 
 --------------------
- ![](https://github.com/jacksonn455/Analisador-Sintatico/blob/main/demo.png)
+ ![](https://github.com/jacksonn455/ProjetoJavascriptOO/blob/main/img/img.png)
