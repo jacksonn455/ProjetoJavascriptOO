@@ -3,14 +3,29 @@ class Produto {
     // todos atributos são colocados no metodo contrutor
     constructor(){ 
     // primeira função que é chamada na classe produto é o construtor
-
+        this.id = 1;
+        this.arrayProdutos = [];
     }
 
-    adicionar(){
-        alert("metodo adicionar");
+    salvar(){
+        let produto = this.lerDados()
+
+        console.log(produto);
     }
 
-    excluir(){
+    lerDados(){
+        let produto = {
+
+        }  //variavel é um objeto
+
+        produto.id = this.id;
+        produto.name = document.getElementById('produto').value;
+        produto.valor = document.getElementById('valor').value;
+
+        return produto;
+    }
+
+    cancelar(){
         alert("metodo excluir");
     }
 
@@ -18,5 +33,4 @@ class Produto {
 
 //instanciar objeto
 //normalmente a instancia tem o mesmo nome da classe so que minusculo
-
 var produto = new Produto();
